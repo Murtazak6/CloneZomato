@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background = "#F56"
+    android:paddingTop="100dp"
+    android:paddingLeft="35dp"
+    android:paddingRight="35dp"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:textColor = "#FFFFFF"
+        android:text="Zomato"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:fontFamily="cursive"
+        app:textAllCaps="true" />
+
+
+    <RelativeLayout
+        android:padding ="15dp"
+        android:id="@+id/r2"
+        android:background = "#FFF"
+        android:layout_below="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Sign Up"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:fontFamily="cursive" />
+
+
+        <EditText
+            android:layout_below = "@+id/ms"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/email1"
+            android:layout_below="@+id/name"
+            android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/password1"
+            android:layout_below="@+id/email1"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:hint="Password" />
+
+        <EditText
+            android:id="@+id/cpassword"
+            android:layout_below="@+id/password1"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password" />
+
+        <Button
+            android:id="@+id/signup1"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/cpassword"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"/>
+
+        <TextView
+            android:id="@+id/login1"
+            android:layout_margin="25dp"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/signup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"/>
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_marginTop = "10dp"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r2"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"/>
+
+</RelativeLayout>

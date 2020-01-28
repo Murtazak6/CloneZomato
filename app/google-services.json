@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "178813951620",
+    "firebase_url": "https://clonezomato.firebaseio.com",
+    "project_id": "clonezomato",
+    "storage_bucket": "clonezomato.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178813951620:android:03e7beab1b7ae554916cd1",
+        "android_client_info": {
+          "package_name": "com.logistics.clonezomato"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178813951620-f3uh7pjvo1anfderkbpg8rlo1v6ij551.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.logistics.clonezomato",
+            "certificate_hash": "3d67a4c6ec53461bf37f5d15bb19b087ad6f93ad"
+          }
+        },
+        {
+          "client_id": "178813951620-798a01korceooh15eki6ghml0e12dbc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7HbCohbRMohVn3Jn_JXwhOwlhy5CiePA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178813951620-798a01korceooh15eki6ghml0e12dbc3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

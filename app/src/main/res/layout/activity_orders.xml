@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#F78601"
+    tools:context=".Orders">
+
+    <LinearLayout
+        android:layout_margin = "20dp"
+        android:padding = "10dp"
+        android:layout_width="match_parent"
+        android:gravity = "center"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical">
+
+        <ImageView
+            android:id = "@+id/i"
+            android:src = "@drawable/ic_launcher_background"
+            android:layout_width="300dp"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/t"
+            android:layout_weight = "1"
+            android:fontFamily = "cursive"
+            android:padding = "10dp"
+            android:gravity = "center"
+            android:textSize = "30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotel" />
+
+        <TextView
+            android:id="@+id/d"
+            android:padding = "10dp"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:textSize = "20dp"
+            android:fontFamily = "sans-serif-condensed-medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description" />
+
+        <TextView
+            android:padding = "10dp"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:textSize = "18dp"
+            android:fontFamily = "casual"
+            android:textStyle = "bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu" />
+
+        <TextView
+            android:padding = "10dp"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:textSize = "15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Veg" />
+
+        <CheckBox
+            android:id="@+id/pakoda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Veg. Pakoda                                   ₹70" />
+
+        <CheckBox
+            android:id="@+id/alooChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aloo Chaat                                      ₹50" />
+
+        <CheckBox
+            android:id="@+id/paneerchilly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paneer Chilly                                 ₹140" />
+
+
+        <CheckBox
+            android:id="@+id/cheeseroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Veg. cheese Roll                           ₹120" />
+
+        <TextView
+            android:padding = "10dp"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:textSize = "15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Non Veg" />
+
+        <CheckBox
+            android:id="@+id/chibiryani"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chi. Biryani                                   ₹230" />
+
+        <CheckBox
+            android:id="@+id/chiafghani"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chicken Afghani                          ₹150" />
+
+        <CheckBox
+            android:id="@+id/chichilly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chicken Chilly                              ₹140" />
+
+
+        <CheckBox
+            android:id="@+id/chiHandi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chi. Handi                                     ₹160" />
+
+        <TextView
+            android:padding = "10dp"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:textSize = "15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drinks" />
+
+        <CheckBox
+            android:id="@+id/colddrinks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cold Drinks                                   ₹20" />
+
+        <CheckBox
+            android:id="@+id/tea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tea                                                 ₹10" />
+
+        <CheckBox
+            android:id="@+id/coffee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coffee                                            ₹20" />
+
+
+        <CheckBox
+            android:id="@+id/lassi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lassi                                               ₹35" />
+
+        <Button
+            android:id = "@+id/caltotal"
+            android:text = "Total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:padding = "10dp"
+            android:textSize = "20dp"
+            android:id = "@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
